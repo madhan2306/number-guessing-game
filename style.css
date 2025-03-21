@@ -1,0 +1,60 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Trebuchet MS',  Arial, sans-serif;
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.main-container{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 50px;
+    color: rgb(8, 56, 14);
+}
+h3,p{
+    color: rgb(8, 56, 14);
+    }
+#ipnum{
+    height: 50px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid rgb(8, 56, 14) ;
+    outline: none;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+#result{
+    margin-top: 20px;
+    height: 30px;
+    width: 120px;
+    background-color: rgb(27, 78, 27);
+    color:  white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+#result:hover{
+    background-color: rgb(18, 48, 18);
+}
+#result:active{
+    background-color: rgb(50, 92, 50);
+}
+#message{
+    font-size: 28px;
+    font-weight: bold;
+}
+#score{
+    font-size: 20px;
+    font-weight: bolder;
+}
